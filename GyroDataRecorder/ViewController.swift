@@ -52,7 +52,7 @@ class ViewController: UIViewController {
             currentabel.text = "Current Label: "+String(currentLabel)
     }
     @IBAction func push(_ sender: Any) {
-//        self.ref.child("recording").setValue(data)
+        self.ref.child("recording").setValue(data)
          self.ref.child("recordings").removeValue()
     }
     func startDeviceMotion() {
@@ -67,9 +67,10 @@ class ViewController: UIViewController {
                                 if let data = self.motion.deviceMotion {
                                    
                                     // Get the attitude relative to the magnetic north reference frame.
-                                    let xx = data.attitude.pitch
-                                    let yy = data.attitude.roll
-                                    let zz = data.attitude.yaw
+                                    let xx = data.gravity.x
+                                    let yy = data.gravity.y
+                                    let zz = data.gravity.z
+                                    
                                     
                                     self.x.text = "X: "+String(xx)
                                     self.y.text = "Y: "+String(yy)

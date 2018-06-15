@@ -14,7 +14,7 @@
 		E7F4E1D120D35C4E00419898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7F4E1D020D35C4E00419898 /* Assets.xcassets */; };
 		E7F4E1D420D35C4E00419898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F4E1D220D35C4E00419898 /* LaunchScreen.storyboard */; };
 		E7F4E1DC20D3624C00419898 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7F4E1DB20D3624C00419898 /* GoogleService-Info.plist */; };
-		E7F4E1E220D388FE00419898 /* test.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E7F4E1E120D388FE00419898 /* test.mlmodel */; };
+		E7F4E1E620D39BEF00419898 /* test.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E7F4E1E520D39BEF00419898 /* test.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		E7F4E1D320D35C4E00419898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7F4E1D520D35C4E00419898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7F4E1DB20D3624C00419898 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		E7F4E1E120D388FE00419898 /* test.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = test.mlmodel; sourceTree = "<group>"; };
+		E7F4E1E520D39BEF00419898 /* test.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = test.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 				E7F4E1D220D35C4E00419898 /* LaunchScreen.storyboard */,
 				E7F4E1D520D35C4E00419898 /* Info.plist */,
 				E7F4E1DB20D3624C00419898 /* GoogleService-Info.plist */,
-				E7F4E1E120D388FE00419898 /* test.mlmodel */,
+				E7F4E1E520D39BEF00419898 /* test.mlmodel */,
 			);
 			path = GyroDataRecorder;
 			sourceTree = "<group>";
@@ -212,7 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7F4E1CC20D35C4D00419898 /* ViewController.swift in Sources */,
-				E7F4E1E220D388FE00419898 /* test.mlmodel in Sources */,
+				E7F4E1E620D39BEF00419898 /* test.mlmodel in Sources */,
 				E7F4E1CA20D35C4D00419898 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
