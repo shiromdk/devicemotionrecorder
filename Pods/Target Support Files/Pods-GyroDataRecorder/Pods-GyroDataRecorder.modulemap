@@ -1,0 +1,6 @@
+framework module Pods_GyroDataRecorder {
+  umbrella header "Pods-GyroDataRecorder-umbrella.h"
+
+  export *
+  module * { export * }
+}
