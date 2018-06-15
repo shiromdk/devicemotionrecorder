@@ -92,18 +92,43 @@ class ViewController: UIViewController {
                                     }
                                     
                                     let result = String(describing: i.output1[0])
-                                    print(i.output1[3],i.output1[6],i.output1[8],i.output1[9],i.output1[12])
+                                    print(i.output1)
+                                  
+                                    if i.output1[1] == 1{
+                                         self.predictionLabel.text = "1"
+                                    }
+                                    if i.output1[2] == 1{
+                                         self.predictionLabel.text = "2"
+                                    }
                                     if i.output1[3] == 1{
                                          self.predictionLabel.text = "3"
                                     }
+                                    if i.output1[4] == 1{
+                                            self.predictionLabel.text = "4"
+                                    }
+                                    if i.output1[5] == 1{
+                                        self.predictionLabel.text = "5"
+                                    }
                                     if i.output1[6] == 1{
-                                         self.predictionLabel.text = "6"
+                                        self.predictionLabel.text = "6"
+                                    }
+                                    if i.output1[7] == 1{
+                                        self.predictionLabel.text = "7"
+                                    }
+                                    if i.output1[8] == 1{
+                                        self.predictionLabel.text = "8"
                                     }
                                     if i.output1[9] == 1{
-                                         self.predictionLabel.text = "9"
+                                        self.predictionLabel.text = "9"
+                                    }
+                                    if i.output1[10] == 1{
+                                        self.predictionLabel.text = "10"
+                                    }
+                                    if i.output1[11] == 1{
+                                        self.predictionLabel.text = "11"
                                     }
                                     if i.output1[12] == 1{
-                                            self.predictionLabel.text = "12"
+                                        self.predictionLabel.text = "12"
                                     }
                                 
                                     if(self.recordSwitch.isOn){

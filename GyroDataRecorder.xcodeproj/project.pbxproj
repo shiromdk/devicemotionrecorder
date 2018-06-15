@@ -8,19 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		6E4266C3F75EFE0B51DF2DFC /* Pods_GyroDataRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77CA22901A59BB7EFE96A8E /* Pods_GyroDataRecorder.framework */; };
+		E75B09AC20D4824F00808588 /* test.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E75B09AB20D4824F00808588 /* test.mlmodel */; };
 		E7F4E1CA20D35C4D00419898 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F4E1C920D35C4D00419898 /* AppDelegate.swift */; };
 		E7F4E1CC20D35C4D00419898 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F4E1CB20D35C4D00419898 /* ViewController.swift */; };
 		E7F4E1CF20D35C4D00419898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F4E1CD20D35C4D00419898 /* Main.storyboard */; };
 		E7F4E1D120D35C4E00419898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7F4E1D020D35C4E00419898 /* Assets.xcassets */; };
 		E7F4E1D420D35C4E00419898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F4E1D220D35C4E00419898 /* LaunchScreen.storyboard */; };
 		E7F4E1DC20D3624C00419898 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7F4E1DB20D3624C00419898 /* GoogleService-Info.plist */; };
-		E7F4E1E620D39BEF00419898 /* test.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E7F4E1E520D39BEF00419898 /* test.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		65F99667EAB15B85576E554E /* Pods-GyroDataRecorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GyroDataRecorder.release.xcconfig"; path = "Pods/Target Support Files/Pods-GyroDataRecorder/Pods-GyroDataRecorder.release.xcconfig"; sourceTree = "<group>"; };
 		B77CA22901A59BB7EFE96A8E /* Pods_GyroDataRecorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GyroDataRecorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C4C8A5E8B5C05C2A6FEC20 /* Pods-GyroDataRecorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GyroDataRecorder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GyroDataRecorder/Pods-GyroDataRecorder.debug.xcconfig"; sourceTree = "<group>"; };
+		E75B09AB20D4824F00808588 /* test.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = test.mlmodel; path = ../../deviceorientationkeras/test.mlmodel; sourceTree = "<group>"; };
 		E7F4E1C620D35C4D00419898 /* GyroDataRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyroDataRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F4E1C920D35C4D00419898 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7F4E1CB20D35C4D00419898 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		E7F4E1D320D35C4E00419898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7F4E1D520D35C4E00419898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7F4E1DB20D3624C00419898 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		E7F4E1E520D39BEF00419898 /* test.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = test.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 				E7F4E1D220D35C4E00419898 /* LaunchScreen.storyboard */,
 				E7F4E1D520D35C4E00419898 /* Info.plist */,
 				E7F4E1DB20D3624C00419898 /* GoogleService-Info.plist */,
-				E7F4E1E520D39BEF00419898 /* test.mlmodel */,
+				E75B09AB20D4824F00808588 /* test.mlmodel */,
 			);
 			path = GyroDataRecorder;
 			sourceTree = "<group>";
@@ -212,7 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7F4E1CC20D35C4D00419898 /* ViewController.swift in Sources */,
-				E7F4E1E620D39BEF00419898 /* test.mlmodel in Sources */,
+				E75B09AC20D4824F00808588 /* test.mlmodel in Sources */,
 				E7F4E1CA20D35C4D00419898 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NPE38GC9D7;
+				DEVELOPMENT_TEAM = 2L692QWC64;
 				INFOPLIST_FILE = GyroDataRecorder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -378,7 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NPE38GC9D7;
+				DEVELOPMENT_TEAM = 2L692QWC64;
 				INFOPLIST_FILE = GyroDataRecorder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
